@@ -1,18 +1,10 @@
 def fizzbuzz(int)
-  if int % 3 == 0 # if the number int is divisible by 3
-      "Fizz"
-end
-end
-
-def fizzbuzz(int)
-  if int % 5 == 0
-    "Buzz"
-  end
-end
-
-def fizzbuzz(int)
-  if int % 3 == 0
-  elsif int % 5 == 0
-      "Fizzbuzz"
+      if int % 3 == 0 && i % 5 == 0
+          puts 'FizzBuzz'
+        elsif int % 3 == 0 
+          puts 'Fizz'
+        elsif int % 5 == 0 
+          puts 'Buzz'
     end
-  end
+    
+  
