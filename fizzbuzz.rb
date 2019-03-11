@@ -1,10 +1,10 @@
 def fizzbuzz(int)
   if int % 3 == 0 # if the number int is divisible by 3
-"Fizz"
+   puts "Fizz"
 elsif int % 5 == 0
-  "Buzz"
-elsif int % 3 == 0 && int % 5 == 0 && int == 15
-  "Fizzbuzz"
+  puts "Buzz"
+elsif int % 3 == 0 && int % 5 == 0
+  puts "Fizzbuzz"
 else
   puts nil
 
